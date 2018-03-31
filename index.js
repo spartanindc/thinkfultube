@@ -14,6 +14,7 @@ let displayElem = $('.videoSearchResults');
         elem.find('a').attr('href', watchUrl);
         elem.find('img').attr('src', imageUrl);
         displayElem.append(elem);
+        displayElem.prop(hidden, false)
     });
 }
 
